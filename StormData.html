@@ -381,7 +381,7 @@ summary {
 </div>
 <div id="data-processing" class="section level2">
 <h2>Data Processing</h2>
-<p>The first thing is to import the data into R and set up the variables in the correct class to use in analysis.</p>
+<p>The first thing is to import the data into R and set up the variables in the correct class to use in analysis. Data was read in, then formatted the event type field to remove spaces, the dates and times into proper format, The appropriate variables set to factors for proper analysis.</p>
 <pre class="r"><code># FUNCTION TO IMPORT DATA AND FORMAT CERTAIN VARIABLES====================
      require(lubridate)
      wd &lt;- read.csv(&quot;repdata-data-StormData.csv.bz2&quot;)

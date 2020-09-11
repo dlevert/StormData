@@ -18,7 +18,10 @@ output: html_document
  
 ## Data Processing
 The first thing is to import the data into R and set up the variables in the
-correct class to use in analysis.
+correct class to use in analysis. Data was read in, then formatted the event 
+type field to remove spaces, the dates and times into proper format,
+The appropriate variables set to factors for proper analysis.
+
 ```{r, echo=TRUE, cache=TRUE, message=FALSE, warning=FALSE}
 # FUNCTION TO IMPORT DATA AND FORMAT CERTAIN VARIABLES====================
      require(lubridate)
